@@ -1,0 +1,180 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+
+-dontwarn bolts.**
+-keepattributes *Annotation*
+
+#google maps
+-keep class * extends java.util.ListResourceBundle {
+    protected java.lang.Object[][] getContents();
+}
+
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+    @com.google.android.gms.common.annotation.KeepName *;
+}
+-keepnames class * implements android.os.Parcelable {
+    public static final ** CREATOR;
+}
+
+
+-keep public class com.google.android.gms.* { public *; }
+#-keep class com.google.android.gms.** { *; }
+-keep interface com.google.android.gms.** { *; }
+-keep enum com.google.android.gms.** { *; }
+-dontwarn com.google.android.gms.**
+-dontwarn com.google.android.gms.common.GooglePlayServicesUtil
+
+#map
+-keep class com.google.maps.** { *; }
+-keep interface com.google.maps.** { *; }
+-keep enum com.google.maps.** { *; }
+-dontwarn com.google.maps.**
+
+
+#facebook
+-keep class com.facebook.** { *; }
+-keep interface com.facebook.** { *; }
+-keep enum com.facebook.** { *; }
+-keepattributes Signature
+
+
+#v4
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+-keep class android.support.v4.app.** { *; } 
+-keep class android.support.v4.** { *; }
+-keep interface android.support.v4.app.** { *; }
+-dontwarn android.support.v4.view.**
+
+# support-v7
+-dontwarn android.support.v7.**
+-keep class android.support.v7.internal.** { *; }
+-keep interface android.support.v7.internal.** { *; }
+-keep class android.support.v7.** { *; }
+
+
+# support design
+#@link http://stackoverflow.com/a/31028536
+-dontwarn android.support.design.**
+-keep class android.support.design.** { *; }
+-keep interface android.support.design.** { *; }
+-keep public class android.support.design.R$* { *; }
+
+
+#java.awt.geom
+-keep class  java.awt.geom.** { *; }
+-keep interface  java.awt.geom.** { *; }
+-keep enum   java.awt.geom.** { *; }
+-dontwarn java.awt.geom.**
+
+#zxing
+-keep class  com.google.zxing.** { *; }
+-keep interface com.google.zxing.** { *; }
+-keep enum   com.google.zxing.** { *; }
+-dontwarn com.google.zxing.** 
+
+
+
+#actionbarsherlock
+-keep class com.actionbarsherlock.** { *; }
+-keep interface com.actionbarsherlock.** { *; }
+-keep enum com.actionbarsherlock.** { *; }
+-dontwarn com.actionbarsherlock.**
+
+
+#android
+-keep class org.opencv.android.** { *; }
+-dontwarn org.opencv.android.**
+
+
+#oauth
+-keep class oauth.signpost.**  { *; }
+-keep interface oauth.signpost.**  { *; }
+-keep enum oauth.signpost.**  { *; }
+-dontwarn oauth.signpost.**
+
+#googlecode
+-keep class com.googlecode.**  { *; }
+-keep interface com.googlecode.**  { *; }
+-keep enum com.googlecode.**  { *; }
+
+#badoo
+-keep class com.badoo.**  { *; }
+-keep interface com.badoo.**  { *; }
+-keep enum com.badoo.**  { *; }
+
+#jeremyfeinstein
+-keep class com.jeremyfeinstein.**  { *; }
+-keep interface com.jeremyfeinstein.**  { *; }
+-keep enum com.jeremyfeinstein.**  { *; }
+-dontwarn com.jeremyfeinstein.**
+
+#org.apache
+-keep class org.apache.commons.logging.**  { *; }
+-keep interface org.apache.commons.logging.**  { *; }
+-keep enum org.apache.commons.logging.**  { *; }
+-dontwarn org.apache.commons.logging.**
+
+-keep class org.apache.commons.codec.binary.**  { *; }
+-keep interface org.apache.commons.codec.binary.**  { *; }
+-keep enum org.apache.commons.codec.binary.**  { *; }
+-dontwarn org.apache.commons.codec.binary.**
+
+-keep class org.slf4j.**  { *; }
+-keep interface org.slf4j.**  { *; }
+-keep enum org.slf4j.**  { *; }
+-dontwarn org.slf4j.**
+
+-keep class com.androidquery.**  { *; }
+-keep interface com.androidquery.**  { *; }
+-keep enum com.androidquery.**  { *; }
+
+-keep class net.simonvt.calendarview.**  { *; }
+-keep interface net.simonvt.calendarview.**  { *; }
+-keep enum net.simonvt.calendarview.**  { *; }
+
+-keep class com.devsmart.android.**  { *; }
+-keep interface com.devsmart.android.**  { *; }
+-keep enum com.devsmart.android.**  { *; }
+
+
+-keep class com.jjoe64.graphview.R.**  { *; }
+-keep interface com.jjoe64.graphview.R.**  { *; }
+-keep enum com.jjoe64.graphview.R.**  { *; }
+-dontwarn com.jjoe64.graphview.*
+
+
+-keep class org.apache.http.** {*;}
+-dontwarn org.apache.http.**
+-dontwarn android.net.http.AndroidHttpClient

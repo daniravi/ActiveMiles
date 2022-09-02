@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_draw_order_ground_overlay.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_draw_order_ground_overlay.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_unsupported.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_unsupported.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_visibility_ground_overlay.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_visibility_ground_overlay.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_ground_overlay.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_ground_overlay.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_ground_overlay_color.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_ground_overlay_color.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_nested_folders.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_nested_folders.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_inline_style.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_inline_style.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_unknwown_folder.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_unknwown_folder.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_multiple_placemarks.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_multiple_placemarks.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\camera_click.ogg",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\raw\\camera_click.ogg"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_ballon_gx_prefix.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_ballon_gx_prefix.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_basic_placemark.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_basic_placemark.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_extended_data.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_extended_data.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_nested_multigeometry.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_nested_multigeometry.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\gtm_analytics",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\04453ae409aca24491c1a9ef16f670628cdd7913\\output\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_multigeometry_placemarks.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_multigeometry_placemarks.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_document_nest.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_document_nest.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_poly_style_boolean_numeric.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_poly_style_boolean_numeric.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_basic_folder.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_basic_folder.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_poly_style_boolean_alpha.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_poly_style_boolean_alpha.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_cdata.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_cdata.kml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\like_main.ogg",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\raw\\like_main.ogg"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\zxing_beep.ogg",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\f9af34521e4da1b2d9c066bcbfcc877353625f55\\output\\res\\raw\\zxing_beep.ogg"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\raw\\amu_default_balloon.kml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\raw\\amu_default_balloon.kml"
+    }
+]

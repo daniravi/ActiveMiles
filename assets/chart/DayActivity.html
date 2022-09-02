@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)file:///C:/Users/dravi/Desktop/Highcharts-4.1.5/examples/line-basic/index.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="./javaScript/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+		
+			var Title = "Daily Activities";			
+			
+			function plot(data, series ,nameSeries,time) 
+			{
+		        var chart = $('#container').highcharts(),
+		        inCome = data,
+		        lenObj = inCome.length;
+		        if (series>=chart.series.length)	     					       		        
+			    {    chart.addSeries({                        
+	    				name: nameSeries,
+	    				data: inCome,
+	    				type: 'spline'  
+					}, true);
+				}
+				else
+				{	 
+					chart.series[series].setData(inCome, true);		        	
+		        	chart.series[series].update({name:nameSeries}, true);
+		        }   
+				var d = new Date(0); 
+				d.setUTCMilliseconds(time);	        
+				chart.series[series].update(
+				{								
+		    		pointStart:  Date.UTC(d.getFullYear(),d.getMonth(),d.getDate(),d.getHours())
+				}, true);    
+				            
+	        }
+	        
+	        function setTitle(time,width,height) 
+			{
+		        var chart = $('#container').highcharts();
+		        var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
+				d.setUTCMilliseconds(time);
+				var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+				chart.setTitle({text: Title},{text: d.toLocaleString('en-US',options)},true);    
+				chart.setSize(width, height) ;    
+	        }
+	        
+	        
+			$(function () {
+			    $('#container').highcharts({
+			    	chart: {
+			    		type: 'spline',
+			            height: 0,
+			            width: 0
+			    	},    	
+			        title: {
+			            text: Title,           
+			         	x: -20 //center
+			        },
+			        credits: {
+            			enabled: false
+        			},
+			        subtitle: {
+			            text: 'Data: ',
+			            style: {
+                            font: 'bold 16px Verdana, sans-serif',
+                            color : 'black'
+                        }
+			        },     
+			        xAxis: {           
+			             type: 'datetime',			
+			 			 tickInterval: 3600*1000
+			        },       
+			        yAxis: {
+			            title: {
+			                text: 'Number of Segments'
+			            },
+						labels: {
+			                enabled: false
+			            },
+			            plotLines: [{
+			                value: 0,
+			                width: 1,
+			                color: '#808080'
+			            }],
+			            endOnTick: false,
+			            startOnTick: false
+			        }, 
+			        tooltip: {
+            			pointFormat: '<b>{series.name}</b> segments= <b>{point.y:.1f}</b>'
+        			},
+			        plotOptions: {            
+						series: {			
+			                marker: {
+			                    enabled: false,                     
+			                },
+			               pointInterval:  3600 * 1000			               			                           			               
+			            }
+			        }		        
+			    });
+			});
+		</script>
+	</head>
+	<body>
+<script src="./javaScript/highcharts.js"></script>
+<script src="./javaScript/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; min-height:: 340px; margin: 0 auto" data-highcharts-chart="0"></div>
+
+	
+
+</body></html>

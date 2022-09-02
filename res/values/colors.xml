@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="transparent">#01000000</color>
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+    <color name="colorHist1">#3bA940</color>
+    <color name="colorHist2">#FFA500</color>
+    <color name="colorHist3">#267993</color>
+    <color name="colorHist4">#800080</color>
+    <color name="colorHist5">#7bA9B5</color>
+</resources>

@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\com_facebook_button_text_color.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\color\\com_facebook_button_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\com_facebook_send_button_text_color.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\color\\com_facebook_send_button_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\bcc52eb0d990b755b08e827077c4d22f5a185bee\\output\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\738d1145b392e047fa8fc330185a3b4e84cff23c\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\bcc52eb0d990b755b08e827077c4d22f5a185bee\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\738d1145b392e047fa8fc330185a3b4e84cff23c\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    }
+]

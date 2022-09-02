@@ -1,0 +1,175 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.imperial.activemilespro"
+    android:installLocation="auto"
+    android:versionCode="71"
+    android:versionName="4.0.9">
+
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="org.imperial.activemilespro"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.nfc" android:required="true" />
+ 	<uses-feature android:name="android.hardware.camera" />
+ 	<uses-feature android:name="android.hardware.camera.autofocus" />
+    <!-- READ_GSERVICES -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="org.imperial.activemilespro"
+        android:protectionLevel="normal" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/footicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name="org.imperial.activemilespro.gui.ActiveMilesGUI"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>        
+        <activity android:name="org.imperial.activemilespro.gui.CameraView">
+            <intent-filter>
+                <action android:name="org.imperial.activemilespro.gui.CameraView" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="org.imperial.activemilespro.gui.LiveView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.gui.FacebookManager"
+            android:screenOrientation="portrait" />
+         <activity
+            android:name="org.imperial.activemilespro.gui.ShowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.diary.FullScreenViewActivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar">
+        </activity>
+        <activity
+            android:name="org.imperial.activemilespro.gui.QrCodeActivityGen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.gui.MapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.gui.LocationSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.gui.PersonalPerformanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.gui.ComparePerformanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.diary.DiaryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.service.VoiceLabeling"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.nfc_tag.NFCActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.service.VoiceLabeling2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.gui.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        <activity
+            android:name="org.imperial.activemilespro.service.BluetouthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="org.imperial.activemilespro.service.DeviceListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <service
+            android:name="org.imperial.activemilespro.service.UartService"
+            android:enabled="true" />
+        <service
+            android:name="org.imperial.activemilespro.service.SensorDataServiceInertial"
+            android:enabled="true" />
+        <service
+            android:name="org.imperial.activemilespro.service.SensorDataServiceBluetooth"
+            android:enabled="true" />
+
+        <provider
+            android:name="org.imperial.activemilespro.database.PerformanceContentProvider"
+            android:authorities="org.imperial.activemilespro.provider"
+            android:exported="true"
+            android:permission="org.imperial.activemilespro" >
+        </provider>
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider616299715118522"
+            android:exported="true" />
+
+        <receiver
+            android:name="org.imperial.activemilespro.service.ScheduleReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="org.imperial.activemilespro.interface_utility.IntFacebookBroadcastReceiver"
+            android:permission="org.imperial.activemilespro" >
+             <intent-filter>
+                <action android:name="com.facebook.platform.AppCallResultBroadcast" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="org.imperial.activemilespro.service.ServiceController" >
+        </receiver>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_fb_id" />
+        <meta-data android:name="com.facebook.sdk.ApplicationName"
+                   android:value="@string/app_fb_name" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_api_key" />
+    </application>
+
+</manifest>

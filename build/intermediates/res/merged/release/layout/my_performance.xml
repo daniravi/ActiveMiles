@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_me"
+    android:gravity="center|top"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/web_chart"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+             android:background="#66777777" >
+
+            <android.support.v4.view.PagerTabStrip
+                android:layout_width="match_parent"
+                android:id="@+id/tabStrip"
+                android:layout_height="30dp"
+                android:layout_gravity="top"               
+                android:textColor="#FFFFFF" />
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Target"
+            android:textColor="#FF777777"
+            android:textSize="@dimen/default_text_Size" />
+
+        <SeekBar
+            android:id="@+id/SeekBarTargetMet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/TextTargetMet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="#FFCCAA"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="20.0"
+            android:textColor="#FF777777"
+            android:textSize="@dimen/default_text_Size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/calendario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center"
+            android:onClick="openSettings"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/mese"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/default_text_Size"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/giorno"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_Size_big"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/facebookButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawableStart="@drawable/facebook_share"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/overview_table"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.33"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="0dp"
+                    android:text="@string/LastVelocity"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/default_text_Size" />
+
+                <TextView
+                    android:id="@+id/LastVelocity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:shadowColor="#FFCCAA"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="20.0"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/textSizeForMeter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.33"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="0dp"
+                    android:text="@string/pkSpeed"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/default_text_Size" />
+
+                <TextView
+                    android:id="@+id/PeakVelocity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:shadowColor="#FFCCAA"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="20.0"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/textSizeForMeter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.33"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="0dp"
+                    android:text="@string/avgSpeed"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/default_text_Size" />
+
+                <TextView
+                    android:id="@+id/Speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:shadowColor="#FFCCAA"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="20.0"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/textSizeForMeter" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.33"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="0dp"
+                    android:text="@string/steps"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/default_text_Size" />
+
+                <TextView
+                    android:id="@+id/Step"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:shadowColor="#FFCCAA"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="20.0"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/textSizeForMeter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.33"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="0dp"
+                    android:text="@string/burnEnergy"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/default_text_Size" />
+
+                <TextView
+                    android:id="@+id/BurnEnergy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:shadowColor="#FFCCAA"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="20.0"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/textSizeForMeter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.33"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="0dp"
+                    android:text="@string/distance"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/default_text_Size" />
+
+                <TextView
+                    android:id="@+id/Distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"
+                    android:gravity="center"
+                    android:shadowColor="#FFCCAA"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="20.0"
+                    android:textColor="#FF777777"
+                    android:textSize="@dimen/textSizeForMeter" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

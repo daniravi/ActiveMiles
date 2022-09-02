@@ -1,0 +1,52 @@
+Applications Memory Usage (kB):
+Uptime: 51549768 Realtime: 88694847
+
+** MEMINFO in pid 27424 [org.imperial.activemilespro] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     9330     9312        0    24444    42496    37828     4667
+  Dalvik Heap    20152    20144        0    16884    43444    40139     3305
+ Dalvik Other     2688     2688        0      728                           
+        Stack      352      352        0      320                           
+       Ashmem        4        4        0        0                           
+      Gfx dev     7024     7008        0        0                           
+    Other dev        5        0        4        0                           
+     .so mmap     2198      228     1424     2412                           
+    .apk mmap      497        0       72        0                           
+    .dex mmap     1005        0      968       24                           
+    .oat mmap      704        0      104        0                           
+    .art mmap     1502     1400        4      436                           
+   Other mmap       10        8        0        0                           
+   EGL mtrack     8640     8640        0        0                           
+      Unknown     3316     3304       12      148                           
+        TOTAL    57427    53088     2588    45396    85940    77967     7972
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    21548
+         Native Heap:     9312
+                Code:     2796
+               Stack:      352
+            Graphics:    15648
+       Private Other:     6020
+              System:     1751
+ 
+               TOTAL:    57427      TOTAL SWAP (KB):    45396
+ 
+ Objects
+               Views:       96         ViewRootImpl:        1
+         AppContexts:        7           Activities:        1
+              Assets:     2022        AssetManagers:        5
+       Local Binders:       21        Proxy Binders:       36
+       Parcel memory:       20         Parcel count:       75
+    Death Recipients:        2      OpenSSL Sockets:        2
+ 
+ SQL
+         MEMORY_USED:     1016
+  PAGECACHE_OVERFLOW:      903          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      720            160    3124/138/25  /data/user/0/org.imperial.activemilespro/databases/performance.db

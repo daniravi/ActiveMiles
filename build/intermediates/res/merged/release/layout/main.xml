@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/activemileslogo"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_main"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9" >
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/null2"
+            android:scaleType="fitXY"
+            android:src="@drawable/background" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/NFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/album"
+                android:onClick="openNFC"
+                android:clickable="true"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/album"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/album"
+                android:onClick="openAlbum"
+                android:clickable="true"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:drawableStart="@drawable/map"
+                android:onClick="openMap"
+                android:clickable="true"
+                android:padding="10dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:drawableStart="@drawable/camera"
+                android:onClick="openCamera"
+                android:clickable="true"
+                android:padding="10dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/coupon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:drawableStart="@drawable/qrcode"
+                android:onClick="openQrCodeGen"
+                android:clickable="true"
+                android:padding="10dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:drawableStart="@drawable/settings"
+                android:onClick="openSettings"
+                android:clickable="true"
+                android:padding="10dp"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/social"
+            android:layout_centerHorizontal="true"
+            android:drawableStart="@drawable/me"
+            android:onClick="openMe"
+            android:clickable="true"
+            android:padding="10dp"            
+            android:text="@string/Me"
+            android:textSize="@dimen/text_Size_big"/>
+
+        <TextView
+            android:id="@+id/social"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:clickable="true"
+            android:drawableStart="@drawable/facebook"
+            android:onClick="openSocial"
+            android:padding="10dp"
+            android:text="@string/Social"
+            android:textSize="@dimen/text_Size_big" />
+
+    </RelativeLayout>
+
+</LinearLayout>

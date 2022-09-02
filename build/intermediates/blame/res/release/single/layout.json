@@ -1,0 +1,406 @@
+[
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\conf_diary.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\conf_diary.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\cast_mini_controller.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\fc0fa2062d93e405bd3fc76745a26b094798a5b9\\output\\res\\layout\\cast_mini_controller.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\conf_activemilesgui.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\conf_activemilesgui.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\labeling2.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\labeling2.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\capture.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\cast_tracks_chooser_dialog_layout.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\fc0fa2062d93e405bd3fc76745a26b094798a5b9\\output\\res\\layout\\cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\mr_playback_control.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\e91d9af476d03bf08e7586bc4731b567a1ad07fb\\output\\res\\layout\\mr_playback_control.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\542882ffd563eb9743bd36dc4f8bae48dc29a1ef\\output\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\labeling.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\labeling.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\my_performance.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\my_performance.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\fc0fa2062d93e405bd3fc76745a26b094798a5b9\\output\\res\\layout\\cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\map.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\map.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\conf_personalperformance.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\conf_personalperformance.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\activity_fullscreen_view.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\activity_fullscreen_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\mr_chooser_list_item.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\e91d9af476d03bf08e7586bc4731b567a1ad07fb\\output\\res\\layout\\mr_chooser_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\bluetooth.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\compare_item.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\compare_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\title_bar_bluetooth.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\title_bar_bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\list.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\list.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\mr_controller_volume_item.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\e91d9af476d03bf08e7586bc4731b567a1ad07fb\\output\\res\\layout\\mr_controller_volume_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\qr_code_gen.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\qr_code_gen.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_smart_device_dialog_fragment.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\device_element.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\device_element.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\custom_barcode_scanner.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\custom_barcode_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\activity_sectioned_grid.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\activity_sectioned_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\amu_text_bubble.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\layout\\amu_text_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\pop_up_list_row.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\pop_up_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\main.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\diary_item.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\diary_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\zxing_barcode_scanner.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\f9af34521e4da1b2d9c066bcbfcc877353625f55\\output\\res\\layout\\zxing_barcode_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\amu_webview.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\layout\\amu_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\cast_help_text.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\fc0fa2062d93e405bd3fc76745a26b094798a5b9\\output\\res\\layout\\cast_help_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\3a6cd3293a983f02360c21699b532ca8a95ed675\\output\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\amu_info_window.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\d92922bd063cb924b12ae2ab97f14277e07a89ed\\output\\res\\layout\\amu_info_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\542882ffd563eb9743bd36dc4f8bae48dc29a1ef\\output\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\device_list.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\mr_chooser_dialog.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\e91d9af476d03bf08e7586bc4731b567a1ad07fb\\output\\res\\layout\\mr_chooser_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\multi_profile.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\multi_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\fragment_chart.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\fragment_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\activity_nfc.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\activity_nfc.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\pop_up_window.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\pop_up_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\zxing_capture.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\f9af34521e4da1b2d9c066bcbfcc877353625f55\\output\\res\\layout\\zxing_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\diary_row.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\diary_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\place_autocomplete_progress.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\542882ffd563eb9743bd36dc4f8bae48dc29a1ef\\output\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\mr_volume_control.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\e91d9af476d03bf08e7586bc4731b567a1ad07fb\\output\\res\\layout\\mr_volume_control.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\cast_expanded_controller_activity.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\fc0fa2062d93e405bd3fc76745a26b094798a5b9\\output\\res\\layout\\cast_expanded_controller_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\cast_intro_overlay.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\fc0fa2062d93e405bd3fc76745a26b094798a5b9\\output\\res\\layout\\cast_intro_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\info_windows_layout.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\info_windows_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\slidingmenumain.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\f99bff6dba4dbd9b7a622ed25cf1222fd9f12c1e\\output\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\live_view.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\live_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\camera.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\compare_performance.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\compare_performance.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\layout_fullscreen_image.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\layout_fullscreen_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\conf_map.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\conf_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\conf_compare.xml",
+        "source": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\res\\layout\\conf_compare.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\mr_controller_material_dialog_b.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\e91d9af476d03bf08e7586bc4731b567a1ad07fb\\output\\res\\layout\\mr_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "C:\\Users\\danir\\eclipse-workspace\\ActiveMiles\\ActiveMilesPro\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\danir\\.android\\build-cache\\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\\output\\res\\layout\\notification_template_lines_media.xml"
+    }
+]

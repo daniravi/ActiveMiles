@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+     >
+
+    <TextView
+        android:id="@+id/NoImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:maxLines="1"
+        android:rotation="45"
+        android:text="@string/NoImages"
+        android:textAllCaps="true"
+        android:textSize="@dimen/text_Size_big"
+        android:textColor="#777777" />
+    
+    <ListView
+        android:id="@+id/sectionedGrid_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        />
+
+</RelativeLayout>

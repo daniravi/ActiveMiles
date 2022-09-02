@@ -1,0 +1,819 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:1:1-175:12
+	package
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:2:5-42
+		INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml
+		INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:5:5-32
+		INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml
+		INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml
+		INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:1:11-69
+	android:installLocation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:3:5-35
+supports-screens
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:8:5-13:39
+	android:largeScreens
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:10:9-36
+	android:smallScreens
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:13:9-36
+	android:normalScreens
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:11:9-37
+	android:resizeable
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:12:9-34
+	android:anyDensity
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:9:9-34
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:15:22-63
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:16:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:16:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:18:5-68
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\danir\.android\build-cache\78309f7083e8d5c6f5676d3b08dd75edfb96b9a9\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\04453ae409aca24491c1a9ef16f670628cdd7913\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\32365fd2b361a3585c5383ce4440103f42e109ab\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\danir\.android\build-cache\78309f7083e8d5c6f5676d3b08dd75edfb96b9a9\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\danir\.android\build-cache\f1d020096295fc0fbc35a36f4fa5f99d29f8fcc1\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:9.8.0] C:\Users\danir\.android\build-cache\ab5b06f2524fd1393cdba107a04cbb3e10230ffa\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\danir\.android\build-cache\211fc9cba54c16be86b8f2103584f0e9dee74cc1\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\danir\.android\build-cache\303576487d98ecb6dfed51f5096c4690b2387d55\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\04453ae409aca24491c1a9ef16f670628cdd7913\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\32365fd2b361a3585c5383ce4440103f42e109ab\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\danir\.android\build-cache\cbf50c5a63042a058a0b12a862f0effdc2e3485e\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\danir\.android\build-cache\78309f7083e8d5c6f5676d3b08dd75edfb96b9a9\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] C:\Users\danir\.android\build-cache\a0f2130d28d8f41e64f025d80e25e9154ea246dc\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\04453ae409aca24491c1a9ef16f670628cdd7913\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\32365fd2b361a3585c5383ce4440103f42e109ab\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\danir\.android\build-cache\cbf50c5a63042a058a0b12a862f0effdc2e3485e\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:24:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:26:22-65
+uses-permission#org.imperial.activemilespro
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:27:22-64
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:28:5-74
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:28:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:29:5-71
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:29:22-68
+uses-permission#android.permission.NFC
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:30:5-62
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:30:22-59
+uses-feature#android.hardware.nfc
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:31:5-81
+	android:required
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:31:55-78
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:31:19-54
+uses-feature#android.hardware.camera
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:32:3-58
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:24:5-26:36
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:32:17-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:33:3-68
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:32:5-34:36
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:33:17-65
+uses-feature#0x00020000
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:35:5-37:35
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\danir\.android\build-cache\cbf50c5a63042a058a0b12a862f0effdc2e3485e\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:36:9-41
+	android:required
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:37:9-32
+permission#org.imperial.activemilespro
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:39:5-41:44
+	android:protectionLevel
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:41:9-41
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:40:9-51
+application
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:43:5-173:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:45:5-53:19
+MERGED from [no.nordicsemi.android:log:2.0.0] C:\Users\danir\.android\build-cache\701c19c1037608c59ebda71c3129ad95bcc135fc\output\AndroidManifest.xml:11:5-53
+MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\danir\.android\build-cache\3e9095fb879ede0818aa64e7459be7038d8dac60\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.gms:play-services:9.8.0] C:\Users\danir\.android\build-cache\d95c1f9e29c5a5770da6e3fc8eae70349cc979b6\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\danir\.android\build-cache\78309f7083e8d5c6f5676d3b08dd75edfb96b9a9\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\danir\.android\build-cache\f1d020096295fc0fbc35a36f4fa5f99d29f8fcc1\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] C:\Users\danir\.android\build-cache\fc0fa2062d93e405bd3fc76745a26b094798a5b9\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:9.8.0] C:\Users\danir\.android\build-cache\5a269f5de33ca89a9063a8cecbf66a4d16eff9d3\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\danir\.android\build-cache\e91d9af476d03bf08e7586bc4731b567a1ad07fb\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\danir\.android\build-cache\4f6eeedda1ba028902f28526f996e5a5f8d698a3\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] C:\Users\danir\.android\build-cache\10cf8e89c6583c15c39d64717724ad35d968d07a\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:9.8.0] C:\Users\danir\.android\build-cache\3dda728d7582dc6c6df0bb12579be393ac036703\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:9.8.0] C:\Users\danir\.android\build-cache\339bc9a89df134457f8e0f8c54b52d2988e8f468\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:9.8.0] C:\Users\danir\.android\build-cache\ab5b06f2524fd1393cdba107a04cbb3e10230ffa\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:9.8.0] C:\Users\danir\.android\build-cache\d76f0563824bef5f7f8f2786f94670c8ca2fe3f2\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] C:\Users\danir\.android\build-cache\f64391c6480f112a1f0b35d8ef99bc6ddeb858c2\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\danir\.android\build-cache\35a955f17ba9735b3aa2486bdad0cc60861dd500\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] C:\Users\danir\.android\build-cache\4414a5f8470e7f92917b7d36449b64e1042f33d9\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:9.8.0] C:\Users\danir\.android\build-cache\72b65b7bc8b3c6081fe43b166022408183161305\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:9.8.0] C:\Users\danir\.android\build-cache\2856d3939307220c91c7279826996f0d6531409f\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] C:\Users\danir\.android\build-cache\1227e8237f5d334713cd2d9ba6a853b5ec4086bb\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\danir\.android\build-cache\211fc9cba54c16be86b8f2103584f0e9dee74cc1\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] C:\Users\danir\.android\build-cache\231f21b074c38b7362413b6944c4d617f752b696\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\danir\.android\build-cache\303576487d98ecb6dfed51f5096c4690b2387d55\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:9.8.0] C:\Users\danir\.android\build-cache\22dfc481896a5e8dc59583cbfe64f38f976c04f1\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] C:\Users\danir\.android\build-cache\a0f2130d28d8f41e64f025d80e25e9154ea246dc\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:9.8.0] C:\Users\danir\.android\build-cache\24d78f3bf698f1de913a7721ba51a3c0958e1f4c\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:9.8.0] C:\Users\danir\.android\build-cache\542882ffd563eb9743bd36dc4f8bae48dc29a1ef\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:9.8.0] C:\Users\danir\.android\build-cache\5581410c30431002dfe428132daa8fabad08de89\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] C:\Users\danir\.android\build-cache\6a3ee433a4764c1f2640fb8fef2b765f73759256\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\04453ae409aca24491c1a9ef16f670628cdd7913\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\32365fd2b361a3585c5383ce4440103f42e109ab\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] C:\Users\danir\.android\build-cache\bde80e4ba8058b1bc0bf36ce9c5d3d67a35238b6\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] C:\Users\danir\.android\build-cache\eb2198d5f669783f0a35e2afd1c9591b762075ac\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] C:\Users\danir\.android\build-cache\86d0dc82e2be9ab78fda030942b003124a70f401\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\danir\.android\build-cache\cbf50c5a63042a058a0b12a862f0effdc2e3485e\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:9.8.0] C:\Users\danir\.android\build-cache\8a02ec751861e275d19b32a46c3f4512294bad2a\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\danir\.android\build-cache\738d1145b392e047fa8fc330185a3b4e84cff23c\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] C:\Users\danir\.android\build-cache\89d602f34d1da02ce1d5eed06bfb4b15bcd75920\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\danir\.android\build-cache\34069641ff71a14a5e172daf3759236c3fc0fb21\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\danir\.android\build-cache\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\danir\.android\build-cache\f65b57e67fc71b703dcb5ae457f4345717925766\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\danir\.android\build-cache\c96e1227f3bae4de4cafd146625a7b0387ec0af7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\danir\.android\build-cache\5065eb1df148923707dca1ba3934e784ecab96f9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\danir\.android\build-cache\ea1e0fbcdb1a2084cf694b6a40b860eda8d0f842\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\danir\.android\build-cache\5fd71e2150fd75d28437cc3ff86bc75025bb6987\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\danir\.android\build-cache\3543e7e6b094d97bed03cb0d33c0c68abdc15460\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\danir\.android\build-cache\318cadcb3617c7a3f9b12270f637a809931f0373\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\danir\.android\build-cache\4ba350c30f3dc84a97be1e771a51ebe368c6bb02\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\danir\.android\build-cache\f55f53ece96c1ff846fc9739ad6387905dae33c1\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\danir\.android\build-cache\9b6b3dd2ffd0f9db1cd62c9f8be4565a7674c7c4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\danir\.android\build-cache\d92922bd063cb924b12ae2ab97f14277e07a89ed\output\AndroidManifest.xml:7:5-11:19
+	android:label
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:46:9-41
+	android:supportsRtl
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:47:9-35
+	android:allowBackup
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:44:9-35
+	android:icon
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:45:9-42
+	android:theme
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:48:9-52
+activity#org.imperial.activemilespro.gui.ActiveMilesGUI
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:49:9-59:20
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:53:13-49
+	android:launchMode
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:52:13-43
+	android:configChanges
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:51:13-63
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:50:13-74
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:54:13-58:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:55:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:57:27-74
+activity#org.imperial.activemilespro.gui.CameraView
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:60:9-65:20
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:60:19-76
+intent-filter#android.intent.category.DEFAULT+org.imperial.activemilespro.gui.CameraView
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:61:13-64:29
+action#org.imperial.activemilespro.gui.CameraView
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:62:17-85
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:62:25-82
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:63:17-76
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:63:27-73
+activity#org.imperial.activemilespro.gui.LiveView
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:67:9-69:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:69:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:68:13-68
+activity#org.imperial.activemilespro.gui.FacebookManager
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:70:9-72:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:72:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:71:13-75
+activity#org.imperial.activemilespro.gui.ShowActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:73:10-75:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:75:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:74:13-72
+activity#org.imperial.activemilespro.diary.FullScreenViewActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:76:9-79:20
+	android:theme
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:78:13-66
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:77:13-84
+activity#org.imperial.activemilespro.gui.QrCodeActivityGen
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:80:9-82:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:81:13-77
+activity#org.imperial.activemilespro.gui.MapActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:84:13-71
+activity#org.imperial.activemilespro.gui.LocationSettingActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:86:9-88:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:87:13-83
+activity#org.imperial.activemilespro.gui.PersonalPerformanceActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:89:9-91:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:90:13-87
+activity#org.imperial.activemilespro.gui.ComparePerformanceActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:92:9-94:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:94:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:93:13-86
+activity#org.imperial.activemilespro.diary.DiaryActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:95:9-97:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:96:13-75
+activity#org.imperial.activemilespro.service.VoiceLabeling
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:98:9-100:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:100:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:99:13-77
+activity#org.imperial.activemilespro.nfc_tag.NFCActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:101:9-103:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:103:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:102:13-75
+activity#org.imperial.activemilespro.service.VoiceLabeling2
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:104:9-106:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:105:13-78
+activity#org.imperial.activemilespro.gui.CaptureActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:107:9-113:20
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:109:13-51
+	android:stateNotNeeded
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:110:13-42
+	android:windowSoftInputMode
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:112:13-60
+	android:theme
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:111:13-54
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:108:13-75
+activity#org.imperial.activemilespro.service.BluetouthActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:114:9-116:52
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:115:13-81
+activity#org.imperial.activemilespro.service.DeviceListActivity
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:117:9-120:59
+	android:screenOrientation
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:119:13-49
+	android:theme
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:120:13-56
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:118:13-82
+service#org.imperial.activemilespro.service.UartService
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:122:9-124:38
+	android:enabled
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:124:13-35
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:123:13-75
+service#org.imperial.activemilespro.service.SensorDataServiceInertial
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:125:9-127:38
+	android:enabled
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:127:13-35
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:126:13-89
+service#org.imperial.activemilespro.service.SensorDataServiceBluetooth
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:128:9-130:38
+	android:enabled
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:130:13-35
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:129:13-90
+provider#org.imperial.activemilespro.database.PerformanceContentProvider
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:132:9-137:20
+	android:authorities
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:134:13-71
+	android:exported
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:135:13-36
+	android:permission
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:136:13-61
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:133:13-91
+provider#com.facebook.FacebookContentProvider
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:138:9-141:39
+	android:authorities
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:140:13-90
+	android:exported
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:141:13-36
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:139:13-64
+receiver#org.imperial.activemilespro.service.ScheduleReceiver
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:143:9-154:20
+	android:enabled
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:145:13-35
+	android:exported
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:146:13-36
+	android:permission
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:147:13-75
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:144:13-80
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:148:13-150:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:149:17-79
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:149:25-76
+intent-filter#android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:151:13-153:29
+action#android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:152:17-96
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:152:25-93
+receiver#org.imperial.activemilespro.interface_utility.IntFacebookBroadcastReceiver
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:155:9-161:20
+	android:permission
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:157:13-61
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:156:13-102
+intent-filter#com.facebook.platform.AppCallResultBroadcast
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:158:14-160:29
+action#com.facebook.platform.AppCallResultBroadcast
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:159:17-87
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:159:25-84
+receiver#org.imperial.activemilespro.service.ServiceController
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:162:9-163:20
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:162:19-87
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:165:9-167:49
+	android:value
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:167:13-46
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:166:13-58
+meta-data#com.facebook.sdk.ApplicationName
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:168:9-169:58
+	android:value
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:169:20-55
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:168:20-67
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:170:9-172:54
+	android:value
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:172:13-51
+	android:name
+		ADDED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml:171:13-62
+uses-sdk
+INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:19:5-43
+MERGED from [no.nordicsemi.android:log:2.0.0] C:\Users\danir\.android\build-cache\701c19c1037608c59ebda71c3129ad95bcc135fc\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\danir\.android\build-cache\3e9095fb879ede0818aa64e7459be7038d8dac60\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jeremyfeinstein.slidingmenu:library:1.3] C:\Users\danir\.android\build-cache\f99bff6dba4dbd9b7a622ed25cf1222fd9f12c1e\output\AndroidManifest.xml:4:5-72
+MERGED from [com.google.android.gms:play-services:9.8.0] C:\Users\danir\.android\build-cache\d95c1f9e29c5a5770da6e3fc8eae70349cc979b6\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] C:\Users\danir\.android\build-cache\abcf202f8e653636a16aaf0bec661dc0970915f7\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\danir\.android\build-cache\78309f7083e8d5c6f5676d3b08dd75edfb96b9a9\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\danir\.android\build-cache\f1d020096295fc0fbc35a36f4fa5f99d29f8fcc1\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] C:\Users\danir\.android\build-cache\5d12efaf50ef817aa716d5579c2b4d527ed89169\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:9.8.0] C:\Users\danir\.android\build-cache\fc0fa2062d93e405bd3fc76745a26b094798a5b9\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast:9.8.0] C:\Users\danir\.android\build-cache\5a269f5de33ca89a9063a8cecbf66a4d16eff9d3\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\danir\.android\build-cache\e91d9af476d03bf08e7586bc4731b567a1ad07fb\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\danir\.android\build-cache\4f6eeedda1ba028902f28526f996e5a5f8d698a3\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] C:\Users\danir\.android\build-cache\10cf8e89c6583c15c39d64717724ad35d968d07a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-config:9.8.0] C:\Users\danir\.android\build-cache\3dda728d7582dc6c6df0bb12579be393ac036703\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-awareness:9.8.0] C:\Users\danir\.android\build-cache\339bc9a89df134457f8e0f8c54b52d2988e8f468\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-crash:9.8.0] C:\Users\danir\.android\build-cache\ab5b06f2524fd1393cdba107a04cbb3e10230ffa\output\AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-auth:9.8.0] C:\Users\danir\.android\build-cache\d76f0563824bef5f7f8f2786f94670c8ca2fe3f2\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] C:\Users\danir\.android\build-cache\f64391c6480f112a1f0b35d8ef99bc6ddeb858c2\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-module:9.8.0] C:\Users\danir\.android\build-cache\e047808e98572d3c30313a6dc5593be49dda1c13\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database:9.8.0] C:\Users\danir\.android\build-cache\90c1944974dbbc79a1f612e76259860f2947f28f\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:9.8.0] C:\Users\danir\.android\build-cache\0c01a1bbefef23401004f727ed133d57a44620f3\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\danir\.android\build-cache\35a955f17ba9735b3aa2486bdad0cc60861dd500\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:9.8.0] C:\Users\danir\.android\build-cache\3fc94c13004a7635f1b369186114e2703ac4ca59\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:9.8.0] C:\Users\danir\.android\build-cache\592eac121525558b1611982421681576409895d3\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] C:\Users\danir\.android\build-cache\4414a5f8470e7f92917b7d36449b64e1042f33d9\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-games:9.8.0] C:\Users\danir\.android\build-cache\72b65b7bc8b3c6081fe43b166022408183161305\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-drive:9.8.0] C:\Users\danir\.android\build-cache\2856d3939307220c91c7279826996f0d6531409f\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] C:\Users\danir\.android\build-cache\1227e8237f5d334713cd2d9ba6a853b5ec4086bb\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\danir\.android\build-cache\211fc9cba54c16be86b8f2103584f0e9dee74cc1\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.8.0] C:\Users\danir\.android\build-cache\231f21b074c38b7362413b6944c4d617f752b696\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\danir\.android\build-cache\303576487d98ecb6dfed51f5096c4690b2387d55\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-instantapps:9.8.0] C:\Users\danir\.android\build-cache\f3bd8df5c9034a8eddfee73e779d81028b09eff4\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-location:9.8.0] C:\Users\danir\.android\build-cache\22dfc481896a5e8dc59583cbfe64f38f976c04f1\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-nearby:9.8.0] C:\Users\danir\.android\build-cache\a0f2130d28d8f41e64f025d80e25e9154ea246dc\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-panorama:9.8.0] C:\Users\danir\.android\build-cache\24d78f3bf698f1de913a7721ba51a3c0958e1f4c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:9.8.0] C:\Users\danir\.android\build-cache\542882ffd563eb9743bd36dc4f8bae48dc29a1ef\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-plus:9.8.0] C:\Users\danir\.android\build-cache\5581410c30431002dfe428132daa8fabad08de89\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:9.8.0] C:\Users\danir\.android\build-cache\6a3ee433a4764c1f2640fb8fef2b765f73759256\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:9.8.0] C:\Users\danir\.android\build-cache\ea48dc48f5b35c1b94fbb0bb5e254fbac60fe7df\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\04453ae409aca24491c1a9ef16f670628cdd7913\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\32365fd2b361a3585c5383ce4440103f42e109ab\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] C:\Users\danir\.android\build-cache\bde80e4ba8058b1bc0bf36ce9c5d3d67a35238b6\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] C:\Users\danir\.android\build-cache\eb2198d5f669783f0a35e2afd1c9591b762075ac\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.8.0] C:\Users\danir\.android\build-cache\bcc52eb0d990b755b08e827077c4d22f5a185bee\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] C:\Users\danir\.android\build-cache\86d0dc82e2be9ab78fda030942b003124a70f401\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\danir\.android\build-cache\cbf50c5a63042a058a0b12a862f0effdc2e3485e\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-wearable:9.8.0] C:\Users\danir\.android\build-cache\8a02ec751861e275d19b32a46c3f4512294bad2a\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\danir\.android\build-cache\738d1145b392e047fa8fc330185a3b4e84cff23c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] C:\Users\danir\.android\build-cache\89d602f34d1da02ce1d5eed06bfb4b15bcd75920\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\danir\.android\build-cache\34069641ff71a14a5e172daf3759236c3fc0fb21\output\AndroidManifest.xml:17:5-42
+MERGED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\danir\.android\build-cache\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\danir\.android\build-cache\f65b57e67fc71b703dcb5ae457f4345717925766\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\danir\.android\build-cache\c96e1227f3bae4de4cafd146625a7b0387ec0af7\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\danir\.android\build-cache\5065eb1df148923707dca1ba3934e784ecab96f9\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\danir\.android\build-cache\ea1e0fbcdb1a2084cf694b6a40b860eda8d0f842\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\danir\.android\build-cache\5fd71e2150fd75d28437cc3ff86bc75025bb6987\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\danir\.android\build-cache\3543e7e6b094d97bed03cb0d33c0c68abdc15460\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\danir\.android\build-cache\318cadcb3617c7a3f9b12270f637a809931f0373\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\danir\.android\build-cache\4ba350c30f3dc84a97be1e771a51ebe368c6bb02\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\danir\.android\build-cache\f55f53ece96c1ff846fc9739ad6387905dae33c1\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\danir\.android\build-cache\9b6b3dd2ffd0f9db1cd62c9f8be4565a7674c7c4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\danir\.android\build-cache\d92922bd063cb924b12ae2ab97f14277e07a89ed\output\AndroidManifest.xml:5:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\danir\.android\build-cache\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml
+		INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml
+		INJECTED from C:\Users\danir\eclipse-workspace\ActiveMiles\ActiveMilesPro\AndroidManifest.xml
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:46:9-52:63
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:48:13-45
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:49:13-56
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] C:\Users\danir\.android\build-cache\f9af34521e4da1b2d9c066bcbfcc877353625f55\output\AndroidManifest.xml:47:13-74
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\danir\.android\build-cache\7a2a3739cd6ef77483f49b6a476d7cab30208c07\output\AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\danir\.android\build-cache\f1d020096295fc0fbc35a36f4fa5f99d29f8fcc1\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\danir\.android\build-cache\f1d020096295fc0fbc35a36f4fa5f99d29f8fcc1\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\danir\.android\build-cache\f1d020096295fc0fbc35a36f4fa5f99d29f8fcc1\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\danir\.android\build-cache\f1d020096295fc0fbc35a36f4fa5f99d29f8fcc1\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\danir\.android\build-cache\f1d020096295fc0fbc35a36f4fa5f99d29f8fcc1\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\danir\.android\build-cache\f1d020096295fc0fbc35a36f4fa5f99d29f8fcc1\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\danir\.android\build-cache\f1d020096295fc0fbc35a36f4fa5f99d29f8fcc1\output\AndroidManifest.xml:22:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\danir\.android\build-cache\718f426542b45448d4ba308199c5d2613cc4c9a6\output\AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] C:\Users\danir\.android\build-cache\fc0fa2062d93e405bd3fc76745a26b094798a5b9\output\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] C:\Users\danir\.android\build-cache\fc0fa2062d93e405bd3fc76745a26b094798a5b9\output\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] C:\Users\danir\.android\build-cache\fc0fa2062d93e405bd3fc76745a26b094798a5b9\output\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] C:\Users\danir\.android\build-cache\fc0fa2062d93e405bd3fc76745a26b094798a5b9\output\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] C:\Users\danir\.android\build-cache\fc0fa2062d93e405bd3fc76745a26b094798a5b9\output\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:9.8.0] C:\Users\danir\.android\build-cache\fc0fa2062d93e405bd3fc76745a26b094798a5b9\output\AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\danir\.android\build-cache\35a955f17ba9735b3aa2486bdad0cc60861dd500\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\danir\.android\build-cache\35a955f17ba9735b3aa2486bdad0cc60861dd500\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\danir\.android\build-cache\35a955f17ba9735b3aa2486bdad0cc60861dd500\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\danir\.android\build-cache\35a955f17ba9735b3aa2486bdad0cc60861dd500\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\danir\.android\build-cache\35a955f17ba9735b3aa2486bdad0cc60861dd500\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\danir\.android\build-cache\35a955f17ba9735b3aa2486bdad0cc60861dd500\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\danir\.android\build-cache\35a955f17ba9735b3aa2486bdad0cc60861dd500\output\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\danir\.android\build-cache\211fc9cba54c16be86b8f2103584f0e9dee74cc1\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\danir\.android\build-cache\303576487d98ecb6dfed51f5096c4690b2387d55\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\danir\.android\build-cache\211fc9cba54c16be86b8f2103584f0e9dee74cc1\output\AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:9.8.0] C:\Users\danir\.android\build-cache\6faf593f3a945d67a236cd7535c64683292688d3\output\AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\32365fd2b361a3585c5383ce4440103f42e109ab\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\danir\.android\build-cache\32365fd2b361a3585c5383ce4440103f42e109ab\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\danir\.android\build-cache\12dc6ec8bf7b593b46b49dd157f2b149357bad33\output\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\danir\.android\build-cache\ec190ef05a329308852c364e2163eeebed0051a9\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\danir\.android\build-cache\bde80e4ba8058b1bc0bf36ce9c5d3d67a35238b6\output\AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\danir\.android\build-cache\bde80e4ba8058b1bc0bf36ce9c5d3d67a35238b6\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\danir\.android\build-cache\bde80e4ba8058b1bc0bf36ce9c5d3d67a35238b6\output\AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\danir\.android\build-cache\bde80e4ba8058b1bc0bf36ce9c5d3d67a35238b6\output\AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\danir\.android\build-cache\bde80e4ba8058b1bc0bf36ce9c5d3d67a35238b6\output\AndroidManifest.xml:6:79-124
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\danir\.android\build-cache\738d1145b392e047fa8fc330185a3b4e84cff23c\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\danir\.android\build-cache\738d1145b392e047fa8fc330185a3b4e84cff23c\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\danir\.android\build-cache\738d1145b392e047fa8fc330185a3b4e84cff23c\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\danir\.android\build-cache\738d1145b392e047fa8fc330185a3b4e84cff23c\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\danir\.android\build-cache\34069641ff71a14a5e172daf3759236c3fc0fb21\output\AndroidManifest.xml:20:9-121
+MERGED from [com.google.maps.android:android-maps-utils:0.4.4] C:\Users\danir\.android\build-cache\d92922bd063cb924b12ae2ab97f14277e07a89ed\output\AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\danir\.android\build-cache\34069641ff71a14a5e172daf3759236c3fc0fb21\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\danir\.android\build-cache\34069641ff71a14a5e172daf3759236c3fc0fb21\output\AndroidManifest.xml:20:20-65
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:46:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.26.0] C:\Users\danir\.android\build-cache\3a6cd3293a983f02360c21699b532ca8a95ed675\output\AndroidManifest.xml:45:13-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\danir\.android\build-cache\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\danir\.android\build-cache\f65b57e67fc71b703dcb5ae457f4345717925766\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\danir\.android\build-cache\c96e1227f3bae4de4cafd146625a7b0387ec0af7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\danir\.android\build-cache\5065eb1df148923707dca1ba3934e784ecab96f9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\danir\.android\build-cache\ea1e0fbcdb1a2084cf694b6a40b860eda8d0f842\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\danir\.android\build-cache\5fd71e2150fd75d28437cc3ff86bc75025bb6987\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\danir\.android\build-cache\3543e7e6b094d97bed03cb0d33c0c68abdc15460\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\danir\.android\build-cache\318cadcb3617c7a3f9b12270f637a809931f0373\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\danir\.android\build-cache\4ba350c30f3dc84a97be1e771a51ebe368c6bb02\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\danir\.android\build-cache\f55f53ece96c1ff846fc9739ad6387905dae33c1\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\danir\.android\build-cache\9b6b3dd2ffd0f9db1cd62c9f8be4565a7674c7c4\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\danir\.android\build-cache\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\danir\.android\build-cache\514ce4b83e6d514aa4d4a367eddeb6b5723b17d3\output\AndroidManifest.xml:26:9-47

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- saved from url=(0126)file:///C:/NVPACK/OpenCV-2.4.5-Tegra-sdk-r2/samples/ActiveMiles/HighChart/Highcharts-4.1.5/examples/line-time-series/index.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="./javaScript/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+		var Title = "Elevation & Speed";		
+		
+		function plot(data, timestemp, series ,nameSerie,time) 
+			{
+		        var chart = $('#container').highcharts(),
+		        inCome = data,
+		        lenObj = inCome.length;
+		        
+		       /* var seriesData = [];
+				for (i=0;i<timestemp.length;i++)
+        		{	
+        			seriesData.push([timestemp[i], inCome[i]]);
+        		}*/
+        				        
+		        if (series>=chart.series.length)	     					       		        
+			    {    
+			    	chart.addSeries({                        
+	    				name: nameSerie,
+	    				data: inCome,
+	    				type: 'area',
+	    				category: timestemp	    				
+					}, true);
+									
+				}
+				else
+				{	 
+					 var seriesData = [];
+					for (i=0;i<timestemp.length;i++)
+	        		{	
+	        			seriesData.push(timestemp[i]);
+	        		}
+				
+					chart.series[series].setData(inCome,true);
+					chart.series[series].update({name:nameSerie}, true);
+					chart.xAxis[series].update({categories:seriesData},true);	
+		        } 			        				              
+	        }
+	        
+	        function setTitle(time,width,height) 
+			{
+		        var chart = $('#container').highcharts();
+		        var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
+				d.setUTCMilliseconds(time);
+				var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+				chart.setTitle({text: Title},{text: d.toLocaleString('en-US',options)},true);
+				chart.setSize(width, height) ;         	
+	        }
+		
+		
+		$(function () {
+		    $('#container').highcharts({
+		        chart: {
+		            zoomType: 'x',
+		            type: 'area',
+			        height: 0,
+			        width: 0
+		        },
+		        title: {
+		        	text: Title,
+			            style: {
+					        display: 'none'
+					    }    		            
+		        },
+		        subtitle: {
+			            text: 'Data: ',
+			            style: {
+                            font: 'bold 16px Verdana, sans-serif',
+                            color : 'black'
+                        }
+			        }, 
+		        credits: {
+            			enabled: false
+        			},
+		        xAxis: {		            	
+					type: 'category'            
+            			            
+		        },
+		        yAxis: {
+		            title: {
+		            	enabled: false
+		            },
+		            labels: {
+       					enabled: true
+   					},
+		        },
+		        legend: {
+		            enabled: true
+		        },
+		        exporting: { enabled: false },			           
+		        plotOptions: {
+		            area: {
+		                fillColor: {
+		                    linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1},
+		                    stops: [
+		                        [0, Highcharts.getOptions().colors[0]],
+		                        [1, Highcharts.Color(Highcharts.getOptions().colors[0]).setOpacity(0).get('rgba')]
+		                    ]
+		                },
+		                marker: {
+		                    radius: 2
+		                },
+		                lineWidth: 1,
+		                states: {
+		                    hover: {
+		                        lineWidth: 1
+		                    }
+		                },
+		                threshold: null
+		            }
+		        }, 
+		        series: [{          			   
+            			data: [],
+            			type: 'area'
+        			}, {            			
+            			data: [],
+            			type: 'area'
+        			}]
+				       
+		    });
+		});
+		</script>
+	</head>
+	<body>
+<script src="./javaScript/highcharts.js"></script>
+<script src="./javaScript/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; min-height:: 340px; margin: 0 auto" data-highcharts-chart="0"></div>
+	
+
+</body></html>

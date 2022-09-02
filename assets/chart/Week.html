@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0122)file:///C:/NVPACK/OpenCV-2.4.5-Tegra-sdk-r2/samples/ActiveMiles/HighChart/Highcharts-4.1.5/examples/column-basic/index.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="./javaScript/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+		
+			var Title = "Weekly Activity";			
+			var LabelAxis = "Energy Expenditures [MET Minutes]";	
+					
+      						
+			function plot(data, series ,nameSeries,time) 
+			{
+		        var chart = $('#container').highcharts(),
+		        inCome = data,
+		        lenObj = inCome.length;	     					       
+				if (series>=chart.series.length)	     					       		        
+			    {    chart.addSeries({                        
+	    				name: nameSeries,
+	    				data: inCome	    				
+					}, true);
+				}
+				else
+				{	 
+					chart.series[series].setData(inCome, true);		        	
+		        	chart.series[series].update({name:nameSeries}, true);
+		        } 		             		                				             
+	        }
+	        
+	        function setTitle(time,width,height) 
+			{
+		        var chart = $('#container').highcharts();
+		        var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
+				d.setUTCMilliseconds(time);
+				var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+				chart.setTitle({text: Title},{text: d.toLocaleString('en-US',options)},true);      
+				chart.setSize(width, height) ;  
+				
+	        }
+	        
+		
+			$(function () {
+			    $('#container').highcharts({
+			        chart: {
+			            type: 'column',
+			            height: 0,
+			            width: 0
+			        },
+			        credits: {
+            			enabled: false
+        			},
+			        title: {
+			            text: Title,
+			            style: {
+					        display: 'none'
+					    }
+			        },
+			        subtitle: {
+			            text: 'Data: ',
+			            style: {
+                            font: 'bold 16px Verdana, sans-serif',
+                            color : 'black'
+                        }
+			        },
+			        xAxis: {
+						categories: [
+			                'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'
+			            ],          
+			            crosshair: true           
+			        }, 
+			        exporting: { enabled: false },
+			        legend: {
+			            enabled: false
+			        },       
+			        yAxis: {
+			            min: 0,
+			            title: {
+			                 text: LabelAxis
+			            },
+			            endOnTick: false
+			        },
+			        plotOptions: {            						
+			            column: {
+			                pointPadding: 0.2,
+			                borderWidth: 0
+			            }
+			        },      
+			        tooltip: {
+			            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+			            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+			                '<td style="padding:0"><b>{point.y:.1f} </b></td></tr>',
+			            footerFormat: '</table>',
+			            shared: true,
+			            useHTML: true
+			        }		       
+			    });
+			});
+		</script>
+	</head>
+	<body>
+<script src="./javaScript/highcharts.js"></script>
+<script src="./javaScript/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; min-height:: 340px; margin: 0 auto" data-highcharts-chart="0"></div>
+
+</body></html>

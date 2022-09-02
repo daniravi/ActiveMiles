@@ -1,0 +1,66 @@
+<resources>
+
+    <string name="app_name">ActiveMilesPro</string>
+    <string name="app_fb_name">ActiveMilesPro</string>
+    <string name="app_fb_id">616299715118522</string>
+    <string name="google_api_key">AIzaSyDokpYC-viVtS3wFchBwc2xF-d1_6v93DY</string>
+    
+	<string name="null2"></string>
+    <string name="steps">Steps:</string>
+    <string name="hello_user">Logged in as %1$s!</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="today">Today</string>
+    <string name="apply">Apply</string>
+    <string name="avgSpeed">Average Speed [m/s]:</string>
+    <string name="pkSpeed">Peak Speed [m/s]:</string>
+    <string name="distance">Distance [m]:</string>
+    <string name="burnEnergy">Energy [Met Min.]:</string>
+    <string name="LastVelocity">Last Speed [m/s]:</string>
+    <string name="ShowPhoto">Show Images</string>
+    <string name="FollowLocation">Follow Location</string>
+    <string name="paired">paired</string>
+    <string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+    <string name="scan">Scan</string>
+    <string name="cancel">Cancel</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="SensorSelection">Sensor Selection:</string>
+    <string name="Built_in">Built-in</string>
+    <string name="Ear">Ear</string>
+    <string name="Disable">Disable</string>
+    <string name="LiveData"> Live Data</string>
+    <string name="Labeling1">Activity Label</string>
+    <string name="Labeling2">Free Label</string>
+    <string name="LocationUpdate">Location Update Frequence:</string>
+    <string name="StepSensitivity">Step Sensitivity:</string>
+    <string name="DaySelection">Day Selection</string>
+    <string name="ActiveMilesVoucher">Here is your ActiveMiles voucher which shows that you have used</string>
+    <string name="UseVoucher">Use this voucher at any shop where you see this logo</string>
+    <string name="ColorPlot">Color Theme:</string>
+    <string name="CurrentLabel">Current Label:</string>
+    <string name="StartRecord">Start Record</string>
+    <string name="RemoveLastSection">Remove Last Section</string>
+    <string name="SendData">Send Data</string>
+    <string name="RemoveAllData">Remove All Data</string>
+	<string name="SelectDevice">Select Device:</string>
+	<string name="Scanning">Scanning</string>
+	<string name="Social">\u0020 Social</string>
+	<string name="Me">\u0020 Me</string>
+	<string name="Target">Target:</string>
+	<string name="NoImages">No images in the database</string>
+	<string name="NoConnectionData">No Internet Connection Available</string>
+	<string name="level">Level: </string>
+	<string name="StopRecording">Stop Record</string>
+	<string name="StartRecording">Start Record</string>
+	<string name="RSSI">Rssi = </string>
+	<string name="Average">\'s Average</string>
+	<string name="MetMinutes">Met Minutes</string>
+	<string name="Km">Km</string>	
+	<string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>    
+    <string name="error">Error</string>
+    <string name="SelectActivities">Select Activities</string>
+    <string name="ShowActivity">Show Activity</string>
+</resources>

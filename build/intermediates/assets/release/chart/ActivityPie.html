@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0122)file:///C:/NVPACK/OpenCV-2.4.5-Tegra-sdk-r2/samples/ActiveMiles/HighChart/Highcharts-4.1.5/examples/pie-gradient/index.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Highcharts Example</title>
+
+		<script type="text/javascript" src="./javaScript/jquery.min.js"></script>
+		<style type="text/css">
+${demo.css}
+		</style>
+		<script type="text/javascript">
+		
+			var Title = "Daily Activities Summary";			
+									
+			function plot(data, Activities,series ,time) 
+			{
+		        var chart = $('#container').highcharts(),
+		        inCome = data,
+		        lenObj = inCome.length;	  
+		        chart.series[series].options.dataLabels.x = -20;
+		        
+	
+				var seriesData = [];
+				for (i=0;i<Activities.length;i++)
+        		{	
+        			seriesData.push([Activities[i], inCome[i]]);
+        		}
+    	        
+		        if (series>=chart.series.length)	     					       		        
+			    {    chart.addSeries({                        	    					    				
+	    				data: seriesData,
+	    				type: 'pie',
+	    				selected: true
+					}, true);
+				}
+				else
+				{	 
+					chart.series[series].setData(seriesData,true);
+		        } 
+		           					       
+		                      	
+	        }
+	        
+	       	function setTitle(time,width,height) 
+			{
+		        var chart = $('#container').highcharts();
+		        var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
+				d.setUTCMilliseconds(time);
+				var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+				chart.setTitle({text: Title},{text: d.toLocaleString('en-US',options)},true);
+				chart.setSize(width, height) ;       	
+	        }
+		
+			$(function () {
+			
+			    Highcharts.getOptions().plotOptions.pie.colors = (function () {
+			        var colors = [],
+			            base = Highcharts.getOptions().colors[0],
+			            i;
+			
+			        for (i = 0; i < 10; i += 1) {
+			            // Start out with a darkened base color (negative brighten), and end
+			            // up with a much brighter color
+			            colors.push(Highcharts.Color(base).brighten((i - 3) / 7).get());
+			        }
+			        return colors;
+			    }());
+			
+			    // Build the chart
+			    $('#container').highcharts({
+			        chart: {
+			            plotBackgroundColor: null,
+			            plotBorderWidth: 0,
+			            plotShadow: false,
+			            renderTo: 'container',					
+			            type: 'pie',
+			            height: 0,
+			            width: 0
+			        },
+			        credits: {
+            			enabled: false
+        			},
+			        title: {			            
+			           text: Title,
+			            style: {
+					        display: 'none'
+					    }
+			        },
+			        height: 400,
+			        subtitle: {
+			            text: 'Data: ',
+			            style: {
+                            font: 'bold 16px Verdana, sans-serif',
+                            color : 'black'
+                        }
+			        },
+			        exporting: { enabled: false },
+			        tooltip: {
+			            pointFormat: '<b>{point.percentage:.1f}%</b>'
+			        },
+			        plotOptions: {
+			            pie: {
+			            	innerSize: 0, 
+							pointPadding: 0,
+         					groupPadding: 0,
+        					type: 'pie',
+        					size: '80%',      
+			                allowPointSelect: true,
+			                cursor: 'pointer',
+			                dataLabels: {
+			                    enabled: true,
+			                    inside: true,
+			                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+			                    style: {
+			                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+			                    },
+			                    connectorColor: 'silver'
+			                },
+			            }
+			        },
+			         series: [{          			   
+            			data: []
+        			}]			      
+			    });
+			});
+
+
+		</script>
+	</head>
+	<body>
+<script src="./javaScript/highcharts.js"></script>
+<script src="./javaScript/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; min-height:: 340px; margin: 0 auto" data-highcharts-chart="0"></div>
+	
+
+</body></html>
